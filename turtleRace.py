@@ -30,7 +30,7 @@ ran1 = -100
 ran2 = -100
 # your code goes here
 
-for i in range(1,50,1):
+for i in range(1,60,1):
     prevran1 = ran1
     prevran2 = ran2
     ran1 = random.randint(1,10)
