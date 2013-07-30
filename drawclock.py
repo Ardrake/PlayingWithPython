@@ -3,7 +3,7 @@
 
 import turtle
 wn = turtle.Screen()
-Screen.bgcolor('lightblue')
+wn.bgcolor('lightblue')
 clock = turtle.Turtle()
 clock.pencolor('blue')
 clock.pensize(5)
