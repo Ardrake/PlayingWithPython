@@ -3,6 +3,7 @@
 
 import turtle
 wn = turtle.Screen()
+Screen.bgcolor('lightblue')
 clock = turtle.Turtle()
 clock.pencolor('blue')
 clock.pensize(5)
@@ -21,4 +22,4 @@ for i in range(12):
     clock.forward(30)
     clock.stamp()
     clock.backward(150)
-clock.done()
+
